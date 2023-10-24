@@ -1,4 +1,4 @@
-# Student_management_system
+# Student Management System
 The Student Management System is a robust and user-friendly Windows-based application designed for educational institutions to efficiently manage student records. This system features two primary modules: "Admin" and "Student," catering to the specific needs of administrators and students.
 
 
