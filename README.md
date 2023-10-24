@@ -29,8 +29,11 @@ Apache NetBeans: The Apache NetBeans integrated development environment (IDE) wa
 # Installation and Usage:
 
 Clone this repository to your local machine.
+
 Import the project into Apache NetBeans.
+
 Configure your MySQL database connection details in the project settings.
+
 Build and run the application.
 
 
