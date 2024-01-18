@@ -11,7 +11,7 @@ import java.sql.Connection;
 public class Admin extends javax.swing.JFrame {
 
     
-    
+     
     PreparedStatement pst;
     ResultSet rs;
     Connection con;
