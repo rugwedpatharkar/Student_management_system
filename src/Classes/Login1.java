@@ -40,6 +40,7 @@ public class Login1 extends javax.swing.JFrame {
         jLabel2.setText("Select Login Type");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, -1));
 
+        admin.setBackground(new java.awt.Color(51, 51, 51));
         admin.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         admin.setText("Admin Login");
         admin.addActionListener(new java.awt.event.ActionListener() {
@@ -49,6 +50,7 @@ public class Login1 extends javax.swing.JFrame {
         });
         jPanel2.add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 180, 100));
 
+        student.setBackground(new java.awt.Color(51, 51, 51));
         student.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         student.setText("Student Login");
         student.addActionListener(new java.awt.event.ActionListener() {
@@ -58,7 +60,7 @@ public class Login1 extends javax.swing.JFrame {
         });
         jPanel2.add(student, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 280, 180, 100));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 3, 620, 490));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 620, 490));

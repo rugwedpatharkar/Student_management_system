@@ -51,6 +51,7 @@ public class student extends javax.swing.JFrame {
         jLabel3.setText("Password");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 311, 89, -1));
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -60,6 +61,7 @@ public class student extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 410, 160, 72));
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -75,6 +77,7 @@ public class student extends javax.swing.JFrame {
         txtpass.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 306, 226, 39));
 
+        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText(" New Student Registration");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +87,7 @@ public class student extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 510, 370, 70));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -8, 560, 640));
 
         pack();

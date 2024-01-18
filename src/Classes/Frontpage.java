@@ -41,6 +41,7 @@ public class Frontpage extends javax.swing.JFrame {
         jLabel4.setText("Shubham Jagdale");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 320, -1, -1));
 
+        nxt.setBackground(new java.awt.Color(51, 51, 51));
         nxt.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         nxt.setText("Next");
         nxt.addActionListener(new java.awt.event.ActionListener() {
@@ -55,7 +56,7 @@ public class Frontpage extends javax.swing.JFrame {
         jLabel6.setText("Guidance by Sheetal Patil Mam");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 410, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1440, 670));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1440, 650));

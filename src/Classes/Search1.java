@@ -75,6 +75,7 @@ public final class Search1 extends javax.swing.JFrame {
         jLabel1.setText("Student Profile");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, -1, -1));
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Refresh");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -169,6 +170,7 @@ public final class Search1 extends javax.swing.JFrame {
         txtprn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtprn, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 616, 255, 39));
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -178,6 +180,7 @@ public final class Search1 extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(803, 700, 152, 73));
 
+        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText("Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -207,7 +210,7 @@ public final class Search1 extends javax.swing.JFrame {
         });
         getContentPane().add(txtroll, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, 10, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -7, 1320, 810));
 
         pack();

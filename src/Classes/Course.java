@@ -57,6 +57,7 @@ PreparedStatement pst;
         txtDuration.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtDuration, new org.netbeans.lib.awtextra.AbsoluteConstraints(265, 252, 124, 32));
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Add");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -66,6 +67,7 @@ PreparedStatement pst;
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 365, 176, 78));
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -80,6 +82,7 @@ PreparedStatement pst;
         jLabel3.setText("Add New Course");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 45, -1, 68));
 
+        txtOption.setBackground(new java.awt.Color(51, 51, 51));
         txtOption.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         txtOption.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Week", "Month", "Year" }));
         txtOption.addActionListener(new java.awt.event.ActionListener() {
@@ -90,8 +93,9 @@ PreparedStatement pst;
         getContentPane().add(txtOption, new org.netbeans.lib.awtextra.AbsoluteConstraints(407, 252, 115, 33));
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -7, -1, 500));
 
+        jLabel5.setBackground(new java.awt.Color(51, 51, 51));
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 490));
 
         pack();

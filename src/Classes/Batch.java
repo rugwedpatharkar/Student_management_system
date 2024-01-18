@@ -52,6 +52,7 @@ PreparedStatement pst;
         txtYear.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtYear, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 257, 227, 32));
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Add");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -61,6 +62,7 @@ PreparedStatement pst;
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 340, 151, 78));
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -75,7 +77,7 @@ PreparedStatement pst;
         jLabel3.setText("Add New Batch");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 31, 475, 68));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -7, 610, 500));
 
         pack();

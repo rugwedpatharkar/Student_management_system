@@ -60,6 +60,7 @@ public class Admin extends javax.swing.JFrame {
         });
         jPanel1.add(txtUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(229, 166, 241, 32));
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -69,6 +70,7 @@ public class Admin extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(78, 367, 176, 76));
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +93,7 @@ public class Admin extends javax.swing.JFrame {
         jLabel4.setText("Admin Login ");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(76, 34, 416, 94));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -2, 560, 490));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

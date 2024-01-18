@@ -22,6 +22,7 @@ public class Main extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Courses");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -31,6 +32,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 196, 113));
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Batches");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -40,6 +42,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 60, 187, 113));
 
+        jButton4.setBackground(new java.awt.Color(51, 51, 51));
         jButton4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jButton4.setText("Cancel");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -49,6 +52,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 470, 150, 70));
 
+        jButton5.setBackground(new java.awt.Color(51, 51, 51));
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jButton5.setText("Back");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -58,6 +62,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 470, 145, 70));
 
+        jButton6.setBackground(new java.awt.Color(51, 51, 51));
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton6.setText("Update / Delete");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -67,6 +72,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 60, 188, 113));
 
+        txtshow.setBackground(new java.awt.Color(51, 51, 51));
         txtshow.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txtshow.setText("Show Records");
         txtshow.addActionListener(new java.awt.event.ActionListener() {
@@ -76,6 +82,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(txtshow, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 270, 183, 120));
 
+        txtsearch.setBackground(new java.awt.Color(51, 51, 51));
         txtsearch.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txtsearch.setText("Search Student Records");
         txtsearch.addActionListener(new java.awt.event.ActionListener() {
@@ -85,6 +92,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(txtsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 270, 260, 120));
 
+        jButton7.setBackground(new java.awt.Color(51, 51, 51));
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton7.setText("Admin Section");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -94,6 +102,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 200, 120));
 
+        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText("Search Records");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -103,7 +112,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 271, 180, 120));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Classes/Images/wp5502480-gradient-4k-wallpapers.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1310, 600));
 
         pack();
