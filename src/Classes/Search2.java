@@ -111,12 +111,10 @@ public void search(String str){
         });
         getContentPane().add(txtsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 100, 210, 40));
 
-        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 530, 169, 69));
 
-        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText("Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {

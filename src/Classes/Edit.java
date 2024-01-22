@@ -132,8 +132,8 @@ public final class Edit extends javax.swing.JFrame {
         jLabel2.setText("Roll No :");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(296, 121, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Search");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,8 +142,8 @@ public final class Edit extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(722, 106, 109, 53));
 
-        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Delete Student Information");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -211,8 +211,8 @@ public final class Edit extends javax.swing.JFrame {
         jLabel11.setText("Address*");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(147, 545, -1, 44));
 
-        txtfees.setBackground(new java.awt.Color(51, 51, 51));
         txtfees.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtfees.setForeground(new java.awt.Color(0, 0, 0));
         txtfees.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Paid", "Unpaid" }));
         getContentPane().add(txtfees, new org.netbeans.lib.awtextra.AbsoluteConstraints(1076, 321, 122, 47));
 
@@ -232,12 +232,12 @@ public final class Edit extends javax.swing.JFrame {
         txtlast.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtlast, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 210, 274, 42));
 
-        txtcourse.setBackground(new java.awt.Color(51, 51, 51));
         txtcourse.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtcourse.setForeground(new java.awt.Color(0, 0, 0));
         getContentPane().add(txtcourse, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 317, 146, 51));
 
-        txtbatch.setBackground(new java.awt.Color(51, 51, 51));
         txtbatch.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtbatch.setForeground(new java.awt.Color(0, 0, 0));
         txtbatch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtbatchActionPerformed(evt);
@@ -256,8 +256,8 @@ public final class Edit extends javax.swing.JFrame {
         txttel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txttel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 428, 252, 46));
 
-        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("Update Student Information");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -266,8 +266,8 @@ public final class Edit extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 683, -1, 71));
 
-        jButton4.setBackground(new java.awt.Color(51, 51, 51));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
         jButton4.setText("Back");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -276,8 +276,8 @@ public final class Edit extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 683, 273, 71));
 
-        jButton5.setBackground(new java.awt.Color(51, 51, 51));
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(0, 0, 0));
         jButton5.setText("Cancel");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -40,8 +40,8 @@ public class Login1 extends javax.swing.JFrame {
         jLabel2.setText("Select Login Type");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, -1));
 
-        admin.setBackground(new java.awt.Color(51, 51, 51));
         admin.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        admin.setForeground(new java.awt.Color(0, 0, 0));
         admin.setText("Admin Login");
         admin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -50,8 +50,8 @@ public class Login1 extends javax.swing.JFrame {
         });
         jPanel2.add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 180, 100));
 
-        student.setBackground(new java.awt.Color(51, 51, 51));
         student.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        student.setForeground(new java.awt.Color(0, 0, 0));
         student.setText("Student Login");
         student.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

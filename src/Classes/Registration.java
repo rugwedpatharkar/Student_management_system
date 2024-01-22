@@ -181,7 +181,6 @@ public final class Registration extends javax.swing.JFrame {
         jLabel12.setText("Email Address*");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(961, 439, 128, 49));
 
-        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Save Student Information");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -191,7 +190,6 @@ public final class Registration extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(99, 699, -1, 101));
 
-        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -217,12 +215,12 @@ public final class Registration extends javax.swing.JFrame {
         txtlast.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtlast, new org.netbeans.lib.awtextra.AbsoluteConstraints(652, 114, 268, 42));
 
-        txtcourse.setBackground(new java.awt.Color(51, 51, 51));
         txtcourse.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtcourse.setForeground(new java.awt.Color(0, 0, 0));
         getContentPane().add(txtcourse, new org.netbeans.lib.awtextra.AbsoluteConstraints(633, 337, 218, 44));
 
-        txtbatch.setBackground(new java.awt.Color(51, 51, 51));
         txtbatch.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtbatch.setForeground(new java.awt.Color(0, 0, 0));
         txtbatch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtbatchActionPerformed(evt);
@@ -263,7 +261,6 @@ public final class Registration extends javax.swing.JFrame {
         jLabel16.setText("All (*) marked Fields are Mandatory to fill.");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(549, 650, -1, 31));
 
-        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText("Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -278,17 +275,16 @@ public final class Registration extends javax.swing.JFrame {
         jLabel17.setText("Fees Status*");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(936, 339, 107, 41));
 
-        txtfees.setBackground(new java.awt.Color(51, 51, 51));
         txtfees.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtfees.setForeground(new java.awt.Color(0, 0, 0));
         txtfees.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Paid", "Unpaid" }));
         getContentPane().add(txtfees, new org.netbeans.lib.awtextra.AbsoluteConstraints(1061, 339, 208, 41));
 
-        txtgender.setBackground(new java.awt.Color(51, 51, 51));
         txtgender.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtgender.setForeground(new java.awt.Color(0, 0, 0));
         txtgender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Male", "Female" }));
         getContentPane().add(txtgender, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 230, 153, 45));
 
-        jButton4.setBackground(new java.awt.Color(51, 51, 51));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton4.setText("Reset");
         jButton4.addActionListener(new java.awt.event.ActionListener() {

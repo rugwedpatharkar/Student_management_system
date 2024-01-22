@@ -57,8 +57,8 @@ PreparedStatement pst;
         txtDuration.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(txtDuration, new org.netbeans.lib.awtextra.AbsoluteConstraints(265, 252, 124, 32));
 
-        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Add");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,8 +67,8 @@ PreparedStatement pst;
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 365, 176, 78));
 
-        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,8 +82,8 @@ PreparedStatement pst;
         jLabel3.setText("Add New Course");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 45, -1, 68));
 
-        txtOption.setBackground(new java.awt.Color(51, 51, 51));
         txtOption.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtOption.setForeground(new java.awt.Color(0, 0, 0));
         txtOption.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Week", "Month", "Year" }));
         txtOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

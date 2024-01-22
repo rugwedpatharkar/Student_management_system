@@ -73,7 +73,6 @@ public class newadmin extends javax.swing.JFrame {
         jLabel3.setText("Enter Password Again to Confirm");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(625, 440, -1, 30));
 
-        jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Add New Admin");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -83,7 +82,6 @@ public class newadmin extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(319, 537, 188, 80));
 
-        jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -162,7 +160,6 @@ public class newadmin extends javax.swing.JFrame {
         });
         jPanel1.add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(1024, 297, 356, 44));
 
-        jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText("Reset");
         jButton3.addActionListener(new java.awt.event.ActionListener() {

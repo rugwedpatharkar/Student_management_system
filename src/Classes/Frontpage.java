@@ -41,8 +41,8 @@ public class Frontpage extends javax.swing.JFrame {
         jLabel4.setText("Shubham Jagdale");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 320, -1, -1));
 
-        nxt.setBackground(new java.awt.Color(51, 51, 51));
         nxt.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        nxt.setForeground(new java.awt.Color(0, 0, 0));
         nxt.setText("Next");
         nxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
