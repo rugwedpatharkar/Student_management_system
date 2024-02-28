@@ -63,152 +63,198 @@ public final class Search1 extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         txtfees = new javax.swing.JTextField();
         txtroll = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
 
         jButton4.setText("jButton4");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(java.awt.Color.white);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Liberation Sans", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Student Profile");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, -1));
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(153, 255, 51));
+        jButton1.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Refresh");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 110, 190, 53));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 100, 40));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setBackground(java.awt.Color.white);
+        jLabel3.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel3.setForeground(java.awt.Color.black);
         jLabel3.setText("First Name");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(76, 217, -1, 31));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 90, 30));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setBackground(java.awt.Color.white);
+        jLabel4.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel4.setForeground(java.awt.Color.black);
         jLabel4.setText("Gender");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(955, 216, -1, 33));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 120, 70, 30));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setBackground(java.awt.Color.white);
+        jLabel5.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel5.setForeground(java.awt.Color.black);
         jLabel5.setText("Last Name");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 217, -1, 31));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, 90, 30));
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setBackground(java.awt.Color.white);
+        jLabel6.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel6.setForeground(java.awt.Color.black);
         jLabel6.setText("Date of Birth");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(746, 316, -1, 33));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 100, 30));
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setBackground(java.awt.Color.white);
+        jLabel7.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel7.setForeground(java.awt.Color.black);
         jLabel7.setText("Course");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 313, -1, 38));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, 70, 30));
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setBackground(java.awt.Color.white);
+        jLabel8.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel8.setForeground(java.awt.Color.black);
         jLabel8.setText("Batch");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(777, 406, 57, 38));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 200, 60, 30));
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setBackground(java.awt.Color.white);
+        jLabel9.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel9.setForeground(java.awt.Color.black);
         jLabel9.setText("Telephone");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 507, -1, 40));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 280, 90, 30));
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setBackground(java.awt.Color.white);
+        jLabel10.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel10.setForeground(java.awt.Color.black);
         jLabel10.setText("Address");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(777, 497, 83, 40));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 280, 90, 30));
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setBackground(java.awt.Color.white);
+        jLabel11.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel11.setForeground(java.awt.Color.black);
         jLabel11.setText("Email Address ");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 620, -1, 31));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 390, 130, 30));
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setBackground(java.awt.Color.white);
+        jLabel12.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel12.setForeground(java.awt.Color.black);
         jLabel12.setText("PRN No");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 616, -1, 39));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 70, 30));
 
-        txtlast.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtlast, new org.netbeans.lib.awtextra.AbsoluteConstraints(585, 211, 289, 43));
+        txtlast.setBackground(new java.awt.Color(204, 204, 204));
+        txtlast.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtlast.setForeground(java.awt.Color.black);
+        getContentPane().add(txtlast, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 210, 30));
 
-        txtdob.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtdob, new org.netbeans.lib.awtextra.AbsoluteConstraints(864, 311, 204, 43));
+        txtdob.setBackground(new java.awt.Color(204, 204, 204));
+        txtdob.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtdob.setForeground(java.awt.Color.black);
+        getContentPane().add(txtdob, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 200, 120, 30));
 
-        txtbatch.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtbatch.setBackground(new java.awt.Color(204, 204, 204));
+        txtbatch.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtbatch.setForeground(java.awt.Color.black);
         txtbatch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtbatchActionPerformed(evt);
             }
         });
-        getContentPane().add(txtbatch, new org.netbeans.lib.awtextra.AbsoluteConstraints(864, 406, 156, 38));
+        getContentPane().add(txtbatch, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 200, 110, 30));
 
-        txtaddress.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtaddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(864, 497, 323, 68));
+        txtaddress.setBackground(new java.awt.Color(204, 204, 204));
+        txtaddress.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtaddress.setForeground(java.awt.Color.black);
+        getContentPane().add(txtaddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 280, 240, 60));
 
-        txtemail.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(718, 613, 353, 44));
+        txtemail.setBackground(new java.awt.Color(204, 204, 204));
+        txtemail.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtemail.setForeground(java.awt.Color.black);
+        getContentPane().add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 390, 270, 40));
 
-        txtfirst.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtfirst, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 211, 285, 43));
+        txtfirst.setBackground(new java.awt.Color(204, 204, 204));
+        txtfirst.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtfirst.setForeground(java.awt.Color.black);
+        getContentPane().add(txtfirst, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 200, 30));
 
-        txtgender.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtgender, new org.netbeans.lib.awtextra.AbsoluteConstraints(1031, 211, 171, 43));
+        txtgender.setBackground(new java.awt.Color(204, 204, 204));
+        txtgender.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtgender.setForeground(java.awt.Color.black);
+        getContentPane().add(txtgender, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 120, 100, 30));
 
-        txtcourse.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtcourse, new org.netbeans.lib.awtextra.AbsoluteConstraints(298, 313, 285, 38));
+        txtcourse.setBackground(new java.awt.Color(204, 204, 204));
+        txtcourse.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtcourse.setForeground(java.awt.Color.black);
+        getContentPane().add(txtcourse, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 200, 200, 30));
 
-        txttel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txttel, new org.netbeans.lib.awtextra.AbsoluteConstraints(298, 507, 218, 40));
+        txttel.setBackground(new java.awt.Color(204, 204, 204));
+        txttel.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txttel.setForeground(java.awt.Color.black);
+        getContentPane().add(txttel, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 280, 140, 30));
 
-        txtprn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        getContentPane().add(txtprn, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 616, 255, 39));
+        txtprn.setBackground(new java.awt.Color(204, 204, 204));
+        txtprn.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtprn.setForeground(java.awt.Color.black);
+        txtprn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtprnActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtprn, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 390, 170, 30));
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(255, 204, 0));
+        jButton2.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(803, 700, 152, 73));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 470, 100, 40));
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton3.setBackground(new java.awt.Color(255, 51, 51));
+        jButton3.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(382, 700, 161, 73));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 470, 110, 40));
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setBackground(java.awt.Color.white);
+        jLabel13.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        jLabel13.setForeground(java.awt.Color.black);
         jLabel13.setText("Fees Status");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 404, -1, 43));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, 100, 30));
 
-        txtfees.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtfees.setBackground(new java.awt.Color(204, 204, 204));
+        txtfees.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtfees.setForeground(java.awt.Color.black);
         txtfees.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtfeesActionPerformed(evt);
             }
         });
-        getContentPane().add(txtfees, new org.netbeans.lib.awtextra.AbsoluteConstraints(298, 404, 218, 43));
+        getContentPane().add(txtfees, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 140, 30));
 
+        txtroll.setBackground(java.awt.Color.white);
+        txtroll.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        txtroll.setForeground(java.awt.Color.black);
         txtroll.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtrollActionPerformed(evt);
             }
         });
-        getContentPane().add(txtroll, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, 10, -1));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -7, 1320, 810));
+        getContentPane().add(txtroll, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, 0, -1));
 
         pack();
         setLocationRelativeTo(null);
@@ -276,7 +322,12 @@ public final class Search1 extends javax.swing.JFrame {
     }//GEN-LAST:event_txtfeesActionPerformed
 
     private void txtrollActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtrollActionPerformed
+
     }//GEN-LAST:event_txtrollActionPerformed
+
+    private void txtprnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtprnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtprnActionPerformed
 
   
     public static void main(String args[]) {
@@ -296,7 +347,6 @@ public final class Search1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

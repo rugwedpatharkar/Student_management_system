@@ -17,42 +17,45 @@ public class Main extends javax.swing.JFrame {
         txtsearch = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(51, 51, 255));
+        jButton1.setFont(jButton1.getFont().deriveFont(jButton1.getFont().getStyle() | java.awt.Font.BOLD, jButton1.getFont().getSize()+2));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Courses");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 196, 113));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 196, 50));
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
+        jButton2.setBackground(new java.awt.Color(51, 51, 255));
+        jButton2.setFont(jButton2.getFont().deriveFont(jButton2.getFont().getStyle() | java.awt.Font.BOLD, jButton2.getFont().getSize()+2));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Batches");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 60, 187, 113));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 40, 187, 50));
 
-        jButton4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setBackground(new java.awt.Color(255, 0, 51));
+        jButton4.setFont(jButton4.getFont().deriveFont(jButton4.getFont().getStyle() | java.awt.Font.BOLD, jButton4.getFont().getSize()+2));
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Cancel");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 470, 150, 70));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 360, 100, 50));
 
-        jButton5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton5.setBackground(new java.awt.Color(255, 255, 51));
+        jButton5.setFont(jButton5.getFont().deriveFont(jButton5.getFont().getStyle() | java.awt.Font.BOLD, jButton5.getFont().getSize()+2));
         jButton5.setForeground(new java.awt.Color(0, 0, 0));
         jButton5.setText("Back");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -60,60 +63,62 @@ public class Main extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 470, 145, 70));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 360, 100, 50));
 
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(0, 0, 0));
+        jButton6.setBackground(new java.awt.Color(51, 51, 255));
+        jButton6.setFont(jButton6.getFont().deriveFont(jButton6.getFont().getStyle() | java.awt.Font.BOLD, jButton6.getFont().getSize()+2));
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Update / Delete");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 60, 188, 113));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 40, 188, 50));
 
-        txtshow.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        txtshow.setForeground(new java.awt.Color(0, 0, 0));
+        txtshow.setBackground(new java.awt.Color(51, 51, 255));
+        txtshow.setFont(txtshow.getFont().deriveFont(txtshow.getFont().getStyle() | java.awt.Font.BOLD, txtshow.getFont().getSize()+2));
+        txtshow.setForeground(new java.awt.Color(255, 255, 255));
         txtshow.setText("Show Records");
         txtshow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtshowActionPerformed(evt);
             }
         });
-        getContentPane().add(txtshow, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 270, 183, 120));
+        getContentPane().add(txtshow, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 130, 183, 60));
 
-        txtsearch.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        txtsearch.setForeground(new java.awt.Color(0, 0, 0));
+        txtsearch.setBackground(new java.awt.Color(51, 51, 255));
+        txtsearch.setFont(txtsearch.getFont().deriveFont(txtsearch.getFont().getStyle() | java.awt.Font.BOLD, txtsearch.getFont().getSize()+2));
+        txtsearch.setForeground(new java.awt.Color(255, 255, 255));
         txtsearch.setText("Search Student Records");
         txtsearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtsearchActionPerformed(evt);
             }
         });
-        getContentPane().add(txtsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 270, 260, 120));
+        getContentPane().add(txtsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 240, 260, 60));
 
-        jButton7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(0, 0, 0));
+        jButton7.setBackground(new java.awt.Color(51, 51, 255));
+        jButton7.setFont(jButton7.getFont().deriveFont(jButton7.getFont().getStyle() | java.awt.Font.BOLD, jButton7.getFont().getSize()+2));
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Admin Section");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 200, 120));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 200, 60));
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(0, 0, 0));
+        jButton3.setBackground(new java.awt.Color(51, 51, 255));
+        jButton3.setFont(jButton3.getFont().deriveFont(jButton3.getFont().getStyle() | java.awt.Font.BOLD, jButton3.getFont().getSize()+2));
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Search Records");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 271, 180, 120));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1302869.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1310, 600));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 130, 180, 60));
 
         pack();
         setLocationRelativeTo(null);
@@ -195,7 +200,6 @@ this.hide();
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JButton txtsearch;
     private javax.swing.JButton txtshow;
     // End of variables declaration//GEN-END:variables
